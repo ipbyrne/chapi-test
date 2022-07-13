@@ -17,8 +17,7 @@ const ChapiSet = () => {
         credential: { data },
       },
     } = chapiState;
-    console.log("wallet stored data ", data);
-    // TODO: save local storage
+    console.log("Data stored in wallet", data);
     chapiState.event.respondWith(
       new Promise((resolve) => {
         return data

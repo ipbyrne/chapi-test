@@ -1,0 +1,15 @@
+{
+    "icons": [
+      {
+        "sizes": "48x48 64x64",
+        "src": "/demo-wallet.png",
+        "type": "image/png"
+      }
+    ],
+    "name": "Chapi Wallet",
+    "short_name": "Chapi Wallet",
+    "credential_handler": {
+      "url": "/wallet.html",
+      "enabledTypes": ["VerifiablePresentation"]
+    }
+  }
